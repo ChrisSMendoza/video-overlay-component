@@ -3,8 +3,9 @@
 Vue.component('video-overlay', {
 
 	template: `
-		<div class="card bg-dark text-white">
-			<img class="card-img" src="pexels-photo-37487.jpeg" alt="Card image">
+		<div class="card bg-dark text-white h-100">
+
+			<img class="card-img background-video" src="pexels-photo-37487.jpeg" alt="Card image">
 			
 			<div class="card-img-overlay">
 				<h5 class="card-title">Card title</h5>

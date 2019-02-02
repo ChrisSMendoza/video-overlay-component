@@ -4,7 +4,8 @@
 	height: 90vh;
 }
 
-.bg-video {
+/* this will eventually be a video */
+.background-video {
 	object-fit: cover;
 	height: 100%;
 	width: 100%;
