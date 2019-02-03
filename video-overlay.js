@@ -5,7 +5,11 @@ Vue.component('video-overlay', {
 	template: `
 		<div class="card bg-dark text-white h-100">
 
-			<img class="card-img background-video" src="pexels-photo-37487.jpeg" alt="Card image">
+			<video class="card-img background-video" autoplay>
+				<source src="city.mp4" type="video/mp4"/>
+				
+				Your browser does not support HTML5 videos.
+			</video>
 			
 			<div class="card-img-overlay">
 				<h5 class="card-title">Card title</h5>
